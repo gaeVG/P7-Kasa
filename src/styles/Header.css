@@ -6,21 +6,35 @@ body {
 .lmj-banner {
     display: flex;
     justify-content: space-between;
-    
+   
 }
-
-.lmj-title {
-    color: black;
-       
+.lmj-logo {
+    height: 50px;
+    padding-top: 55px;
 }
-
-.onglet {
+.lienMenu {
     display: flex;
-    
+    height: 70px;
+    font-size: 20px;   
 }
 
-.onglet h1 {
-    margin-left: 45px;
-    font-size: 30px;
-    
-}
+.lienMenu li {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 40px;
+    margin: 0px 25px;
+    border-top: 3px white solid;
+ 
+  }
+
+.lienMenu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF6060;
+ }
+
+.lienMenu li:hover {
+    border-bottom: 3px solid #FF6060;
+
+  }
+

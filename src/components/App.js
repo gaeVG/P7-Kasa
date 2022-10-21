@@ -1,14 +1,16 @@
 import logo from '../logo.svg';
 import '../App.css';
-import {Header} from './Header.js';
-import {Banner} from './Banner.js';
+import {Header} from './Header.jsx';
+import {Banner} from './Banner.jsx';
+import {carts} from './carts.jsx';
 
 function App() {
   return (
-    <><Header /><Banner /></>
+    <><Header /><Banner titre="Chez vous, partout et ailleurs"/><carts /></>
   );
   
 }
+
 
 
 export default App;
