@@ -6,12 +6,10 @@ import {carts} from './carts.jsx';
 
 function App() {
   return (
-    <><Header /><Banner titre="Chez vous, partout et ailleurs"/><carts /></>
+    <><Header /><Banner  titre="Chez vous, partout et ailleurs"/><carts /></>
   );
   
 }
-
-
 
 export default App;
 
