@@ -1,0 +1,37 @@
+.SectionCarts {
+    width: 100%;
+    padding: 3% 1% 0;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.SectionCarts a {
+display: contents;
+}
+
+.logements {
+    position: relative;
+    width: 30%;
+    aspect-ratio: 1/1;
+    margin: 0 1% 3% 2%;
+    border-radius: 5px;
+    transition: transform .2s ease,-webkit-transform .2s
+}
+
+.imageCarts {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tittleCarts {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    color: #fff;
+    font-weight: 500;
+}
