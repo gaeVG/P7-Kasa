@@ -9,7 +9,7 @@ function Apropos() {
   return (
       <>
       <Banner image={BannerApropos} /> 
-      < Faq />
+      <Faq />
       </>
     );
   
