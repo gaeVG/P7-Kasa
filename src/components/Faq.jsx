@@ -1,20 +1,23 @@
 import '../styles/Faq.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faChevronDown} from "@fortawesome/free-solid-svg-icons";
+import React, { useState } from 'react';
 
-export function Faq() {
+export function Faq({titre,paragraphe}) {
+
+    const [isOpen, setIsOpen] = useState(false)
+
     return (
        <article className='dropdown' >
         <div className='dropdownHeader'>
-            <h4>Fiabilité</h4> 
-            <i><FontAwesomeIcon icon= {faChevronDown} className="chevron" /></i> 
+            <h4>{titre}</h4> 
+            <button onClick={() => setIsOpen(true)}><i><FontAwesomeIcon icon= {faChevronDown} className="chevron" /></i></button>
         </div>
         <div className='dropdownBody'>
-            <p className='dropdownText'>
-            Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.
-            </p>
+            <p className='dropdownText'>{paragraphe}</p>
         </div>
        </article>
+       
     )
 }
 
