@@ -5,7 +5,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
-    background-color: #595959;
+    background-color: black;
+    
+    
+
     
 }
 
@@ -16,15 +19,16 @@
     background-repeat: no-repeat;
     border-radius: 25px;
     margin-bottom: -180px;
+    opacity: 0.6;
 }
 
-.lmj-title-banner-montain {
+.title-banner-montain {
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffff;
     font-size: 40px;
     text-align: center;
-       
+         
 }
 
 
