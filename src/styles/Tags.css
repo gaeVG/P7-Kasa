@@ -1,0 +1,15 @@
+.tagtexte {
+    background-color: #FF6060;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: white;
+    text-align: center;
+    height: 25px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.tag {
+    display: flex;
+    gap: 10px;
+}

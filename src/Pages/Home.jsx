@@ -12,7 +12,8 @@ function Home() {
       <div className='SectionCarts'>
         {
           api.map((logement) => 
-            <NavLink to={'/logement/'+logement.id+"/#"} className='lienCarts' key={logement.id}>
+            // <NavLink to={'/logement/'+logement.id+"/#"} className='lienCarts' key={logement.id}>
+            <NavLink to={`/logement/${logement.id}`} className='lienCarts' key={logement.id}>
             <Carts key={logement.id} cover={logement.cover} title={logement.title} id={logement.id} />
             </NavLink>
         )}
