@@ -7,23 +7,24 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
+    margin-top: 20px;
    
 }
 .lmj-logo {
     height: 80px;
-    padding-top: 25px;
 }
 .lienMenu {
     display: flex;
     height: 70px;
-    font-size: 20px;   
+    font-size: 20px;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;  
 }
 
 .lienMenu li {
     list-style: none;
     text-decoration: none;
-    padding-top: 30px;
-    margin: 0px 55px;
     border-top: 3px white solid;
   }
 
