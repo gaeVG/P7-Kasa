@@ -1,0 +1,51 @@
+.dropdownlogement {
+    display: flex;
+    flex-direction: column;
+    width: 35%; 
+    overflow: hidden;
+}
+
+ .dropdownHeaderlogement {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF6060 ;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    height: 8px;
+} 
+.dropdownHeaderlogement h4 {
+    margin-left: 15px;
+}
+
+.dropdownBodylogement {
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+   
+}
+
+.dropdownTextlogement {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    color: #ff6060;
+    font-size: 20px;
+    cursor: default;
+	height: 150px;
+    font-family: "Montserrat";
+}
+
+
+.chevronlogement {
+    font-size: 25px; 
+}

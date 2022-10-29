@@ -1,0 +1,24 @@
+.Error404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
+    color: #FF6060;   
+}
+.Error404_code{
+    font-size: 200px;
+    font-family: "Montserrat";
+
+}
+.Error404_message{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+.Error404_link{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #FF6060;
+    font-family: "Montserrat";
+}

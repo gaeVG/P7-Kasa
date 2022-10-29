@@ -22,16 +22,19 @@
 }
 .star {
     text-align: right;
+    
 }
 
 .titreimage {
     font-size: 36px;
     color: #FF6060;
+    font-family: "Montserrat";
 }
 
 .localisation {
     font-size: 18px;
     color: #FF6060;
+    font-family: "Montserrat";
 }
  .descriptionlogement {
     line-height: 12px;
@@ -39,6 +42,8 @@
 
  .commentaire {
     display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
  }
 
 
@@ -46,4 +51,8 @@
     list-style: none;
  }
 
- 
+.tags {
+    font-family: "Montserrat";
+}
+
+

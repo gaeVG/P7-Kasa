@@ -2,11 +2,13 @@
     object-fit: cover;
     width: 100%;
     height: 450px;
+    border-radius: 15px;
 }
 
 .galerie {
     display: flex;
     align-items: center;
+    
 }
 
 .nombre_image {
@@ -24,6 +26,7 @@
     color: white;
     font-size: 120px;
     width: 0;
+    cursor: grab;
 }
 
 .galerie_boutton_left {
@@ -32,4 +35,5 @@
     color: white;
     font-size: 120px;
     width: 0;
+    cursor: grab;
 }

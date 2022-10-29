@@ -1,15 +1,17 @@
-.dropdown {
+
+
+.dropdownapropos {
     width: 75%; 
     overflow: hidden;
     margin:  auto ;
 }
 
- .dropdownHeader {
+ .dropdownHeaderapropos {
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ff6060;
+    background-color: #FF6060 ; 
     border-radius: 5px;
     color: #fff;
     margin-top: 25px;
@@ -18,11 +20,11 @@
     padding-right: 20px;
     height: 8px;
 } 
-.dropdownHeader h4 {
+.dropdownHeaderapropos h4 {
     margin-left: 15px;
 }
 
-.dropdownBody {
+.dropdownBodyapropos {
     background-color: #f6f6f6;
     border-radius: 5px;
     padding-left: 15px;
@@ -30,7 +32,7 @@
    
 }
 
-.dropdownText {
+.dropdownTextapropos {
     padding-top: 15px;
     padding-bottom: 15px;
     line-height: 1.4;
@@ -40,10 +42,11 @@
     font-size: 20px;
     cursor: default;
 	height: 80px;
+    font-family: "Montserrat";
 }
 
 
-.chevron {
+.chevronapropos {
     font-size: 25px; 
 }
 
