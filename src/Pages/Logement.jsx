@@ -35,12 +35,8 @@ function Logements(){
         </div>
       </section>
       <div className='commentaire'>
-        <div className="left">
-          <Faq titre="Description" paragraphe={logement.description} />
-        </div>
-        <div className="right">
-            <Faq titre="Equipement" paragraphe= {logement.equipments.map((li) => (<li>{li}</li>))} /> 
-        </div>
+          <Faq titre="Description" paragraphe={logement.description}   />
+          <Faq titre="Equipement" paragraphe= {logement.equipments.map((li) => (<li>{li}</li>))} />  
       </div>
 
       

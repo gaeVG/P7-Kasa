@@ -41,17 +41,9 @@
     display: flex;
  }
 
- .left {
-    position: absolute;
-    left: -1.5%;
-    width: 50%;
- }
- .right {
-    position: absolute;
-    right: -1.5%; 
-    width: 50%;
- }
 
  li {
     list-style: none;
  }
+
+ 

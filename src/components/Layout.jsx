@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer.jsx'
 import {Header} from './Header.jsx'
 
 export default function Layout({children}) {
@@ -6,7 +7,7 @@ export default function Layout({children}) {
     <> 
     <Header /> 
     <main> {children} </main>
-    {/* <Footer /> */}
+    <Footer /> 
     </>
   )
 }

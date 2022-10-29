@@ -1,12 +1,12 @@
 .SectionCarts {
     width: 100%;
-    padding: 3% 1% 0;
     margin-top: 30px;
     background-color: #f6f6f6;
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    padding-top: 25px;
     
 }
 

@@ -3,6 +3,7 @@ import '../Home.css';
 import BannerApropos from '../assets/Bannermontainapropos.png'
 import {Banner} from '../components/Banner.jsx';
 import {Faq} from '../components/Faq';
+import '../styles/Apropos.css'
 
 
 function Apropos() {

@@ -1,10 +1,10 @@
 .dropdown {
-    width: 75%;
+    width: 75%; 
     overflow: hidden;
     margin:  auto ;
 }
 
-.dropdownHeader {
+ .dropdownHeader {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -17,14 +17,16 @@
     padding-bottom: 20px;
     padding-right: 20px;
     height: 8px;
-}
+} 
 .dropdownHeader h4 {
     margin-left: 15px;
 }
+
 .dropdownBody {
     background-color: #f6f6f6;
     border-radius: 5px;
     padding-left: 15px;
+    padding-right: 15px;
    
 }
 
@@ -35,9 +37,9 @@
     margin: 0;
     font-family: "Montserrat",sans-serif;
     color: #ff6060;
-    font-size: 14px;
+    font-size: 20px;
     cursor: default;
-	
+	height: 80px;
 }
 
 
