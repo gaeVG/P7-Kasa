@@ -28,5 +28,29 @@
          
 }
 
+  /* mobile*/
+
+  @media screen and  (max-width: 767px){
+
+  }
+
+  /* entre mobile et tablette*/
+
+@media screen and (min-width:490px) and (max-width:767px){
+
+}
+
+/* tablette*/
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+}
+
+/* petit ordi*/
+
+@media screen and (min-width:912px) and (max-width:1369px){
+    
+}
+
 
 

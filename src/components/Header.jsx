@@ -3,7 +3,7 @@ import '../styles/Header.css'
 
 export function Header() {
     return (
-        <div className='lmj-banner'>
+        <div className='banner'>
             <img src={logo} alt='logo KASA' className='lmj-logo' />
             <ul  className='lienMenu'>
                 <li className='lmj-title'><a href="/">Accueil</a></li>

@@ -16,14 +16,13 @@
     justify-content: flex-start;
 }
 
-.lmj-banner {
+.banner {
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
     margin-top: 20px;
     padding-left: 5%;
-    padding-right: 5%;
-   
+    padding-right: 5%;  
 }
 .lmj-logo {
     height: 80px;
@@ -56,19 +55,125 @@
   }
 
 
-  /* desktop */
-@media screen and (min-width: 768px) {
-
-}
 
   /* mobile*/
 
-@media screen and (max-width: 767px) {
+@media screen and  (max-width: 767px) {
+    .banner {
+       
+        padding-bottom: 0;
+        margin-top: 0;
+        align-items: center;
+     
+    }
+    .lmj-logo {
+        height: 31px;
+    }
+    .lienMenu {   
+        width: 50%;   
+    }
+    
+    .lienMenu li a {
+        font-size: 17px;   
+     }
+    
+    .lienMenu li:hover {
+        border-bottom: 2px solid #FF6060;
+      }
+}
 
+/* entre mobile et tablette*/
+
+@media screen and (min-width:490px) and (max-width:767px) {
+    .banner {
+       
+        padding-bottom: 0;
+        margin-top: 0;
+        align-items: center;
+     
+    }
+    .lmj-logo {
+        height: 31px;
+    }
+    .lienMenu {   
+        width: 40%;   
+    }
+    
+    .lienMenu li a {
+        font-size: 17px;   
+     }
+    
+    .lienMenu li:hover {
+        border-bottom: 2px solid #FF6060;
+      }
 }
 
 /* tablette*/
 
 @media screen and (min-width:768px) and (max-width:991px){
+    .banner {
+        padding-bottom: 0;
+        margin-top: 0;
+        align-items: center;
+     
+    }
+    .lmj-logo {
+        height: 31px;
+    }
+    .lienMenu {   
+        width: 30%;   
+    }
+
+    .lienMenu li a {
+        font-size: 20px;   
+     }
+    
+    .lienMenu li:hover {
+        border-bottom: 2px solid #FF6060;
+      }
+    
+    
+}
+
+/* petit ordi*/
+
+@media screen and (min-width:912px) and (max-width:1369px) {
+    .banner {
+        padding-bottom: 0;
+        margin-top: 0;
+        align-items: center;
+     
+    }
+    .lmj-logo {
+        height: 50px;
+    }
+    .lienMenu {   
+        width: 30%;   
+    }
+
+    .lienMenu li a {
+        font-size: 25px;   
+     }
+    
+    .lienMenu li:hover {
+        border-bottom: 2px solid #FF6060;
+      }
 
 }
+
+
+  /* mobile*/
+
+  @media screen and  (max-width: 767px)
+
+  /* entre mobile et tablette*/
+
+@media screen and (min-width:490px) and (max-width:767px) 
+
+/* tablette*/
+
+@media screen and (min-width:768px) and (max-width:991px)
+
+/* petit ordi*/
+
+@media screen and (min-width:912px) and (max-width:1369px)
