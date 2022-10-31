@@ -9,16 +9,20 @@
     align-items: center;
 }
 
-.flex_utilisateur p {
-    font-size: 24px;
-    text-align: right;
-}
+
 
 .imageuser {
     border-radius: 50%;
     height: 72px;
     width: 32%;
     margin-left: 15px;
+}
+
+.pseudo {
+    color: #FF6060;
+    font-family: "Montserrat";
+    font-size: 24px;
+    text-align: right;
 }
 .star {
     text-align: right;
@@ -55,4 +59,52 @@
     font-family: "Montserrat";
 }
 
+
+  /* mobile*/
+
+  @media screen and  (max-width: 767px) {
+    .conteneurdetail {
+        display: flex;
+        flex-direction: column;
+    }
+    .titreimage {
+        font-size: 20px;
+        line-height: 25px;
+        
+    }
+
+    .localisation {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .utilisateur_star {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .imageuser {
+        border-radius: 50%;
+        height: 62px;
+        width: 30%;
+        margin-left: 15px;
+    }
+
+    .pseudo {
+        color: #FF6060;
+        font-family: "Montserrat";
+        font-size: 19px;
+    }
+
+    .commentaire {
+        display: flex;
+        margin-bottom: 80px;
+        justify-content: space-between;
+        flex-direction: column;
+     }
+
+  
+  }
 

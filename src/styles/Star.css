@@ -2,3 +2,12 @@
     width: 30px;
     height: 30px;
 }
+
+  /* mobile*/
+
+  @media screen and  (max-width: 767px) {
+    .star svg {
+        width: 21px;
+        height: 30px;
+    }
+  }

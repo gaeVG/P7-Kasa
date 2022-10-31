@@ -15,3 +15,12 @@
     gap: 10px;
     padding: 0;
 }
+
+ /* mobile*/
+
+ @media screen and  (max-width: 767px) {
+    .tagtexte {
+        height: 24px;
+
+    }
+ }
