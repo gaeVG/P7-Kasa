@@ -8,6 +8,7 @@
 .Error404_code{
     font-size: 200px;
     font-family: "Montserrat";
+    height: 95px;
 
 }
 .Error404_message{
@@ -21,4 +22,27 @@
     text-decoration: underline;
     color: #FF6060;
     font-family: "Montserrat";
+    padding-top: 150px;
 }
+
+
+@media screen and  (max-width: 767px){
+    
+    .Error404_code{
+        font-size: 120px;
+        height: 55px;
+          
+    }
+
+    .Error404_message{
+        font-size: 22px;
+        padding-left: 55px;
+        padding-bottom: 55px;
+        
+    }
+
+    .Error404_link {
+        padding-top: 70px;
+    }
+            
+    }
