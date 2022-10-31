@@ -30,7 +30,7 @@
     border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
-   
+    
 }
 
 .dropdownTextapropos {
@@ -42,7 +42,7 @@
     color: #ff6060;
     font-size: 20px;
     cursor: default;
-	height: 80px;
+	height: 120px;
     font-family: "Montserrat";
 }
 
@@ -55,3 +55,31 @@
     
 
 
+  /* mobile*/
+
+  @media screen and  (max-width: 767px) {
+
+    .dropdownapropos {
+        width: 100%; 
+        overflow: hidden;
+        margin:  auto ;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .dropdownTextapropos {
+        font-size: 12px;    
+    }
+
+    .dropdownHeaderapropos {
+        height: 1px;
+    } 
+
+    .dropdownBodyapropos {
+    height: 150px;
+    }
+   
+  }

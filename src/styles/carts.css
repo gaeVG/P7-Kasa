@@ -39,3 +39,27 @@ display: contents;
     font-weight: 500;
     font-family: "Montserrat";
 }
+
+
+
+
+  /* mobile*/
+
+  @media screen and  (max-width: 767px) {
+    .SectionCarts {
+        flex-direction: column;
+        background-color: white;
+        margin-top: 0;
+    }
+
+    .logements {
+        width: 100%;
+        height: 280px;
+        margin: 0;
+        margin-bottom: 20px;
+        
+    }
+    .imageCarts {
+        border-radius: 15px;
+    }
+  }

@@ -32,6 +32,10 @@
          
 }
 
+.title-banner-montain--mobile {
+    display: none;
+}
+
 
 
   /* mobile*/
@@ -41,25 +45,37 @@
         height: 111px;
         width: 100%;
         position: relative;
+        border-radius: 15px;
+        
+
             
     }
     
     .imageBanniereAccueil {
         height: 111px;
         width: 100%;
+        border-radius: 15px;
+        
         
     }
     
     .title-banner-montain {
-        color: red;
-        font-size: 19px;
-        padding-left: 193px;
-        position: absolute;
-        left: -193px;
-        top: 27px;
-               
+        display: none;
+        
     }
     
+    .title-banner-montain--mobile {
+        color: #ffff;
+        font-size: 24px;
+        position: absolute;
+        left: 14px;
+        top: 5px;
+        display: initial;
+    }
+
+    .propos .title-banner-montain--mobile {
+      display: none;
+    }
   }
 
   /* entre mobile et tablette*/
@@ -98,41 +114,13 @@
         text-align: center;
              
     }
-}
 
-/* petit ordi*/
-
-@media screen and (min-width:912px) and (max-width:1369px){
-    .backgroundimage {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-        height: 280px;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 25px;
-        background-color: black;
-            
+    .title-banner-montain--mobile {
+        display: none;
     }
     
-    .imageBanniereAccueil {
-        height: 280px;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 25px;
-        margin-bottom: -180px;
-        opacity: 0.6;
-    }
-    
-    .title-banner-montain {
-        font-family: 'Montserrat';
-        font-style: normal;
-        color: #ffff;
-        font-size: 40px;
-        text-align: center;
-             
-    }
 }
+
 
 
 
