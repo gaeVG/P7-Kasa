@@ -7,6 +7,7 @@ import '../styles/Faqlogement.css'
 import Tags from '../components/Tags.jsx';
 import Caroussel from '../components/Caroussel';
 import Footer from '../components/Footer';
+import Error404 from '../Pages/Error404';
 
 
 
@@ -19,10 +20,12 @@ function Logements(){
 
   let logement = test[0]
   
-  if(logement !==undefined) {
+
 
   return (
     <>  
+    {logement ? (
+
       <div className="mainconteneur">
         <Caroussel />
         <section className='conteneurdetail'>
@@ -45,14 +48,12 @@ function Logements(){
         </div> 
       </div> 
       
-      <Footer /> 
+       
+    ) : <Error404/>}
     </>
-
+    
   )
 
-  }else{
-    window.location.href ="/404";    
-  }
 };
   
   

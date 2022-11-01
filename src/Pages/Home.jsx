@@ -21,7 +21,6 @@ function Home() {
           )}
         </div>
       </div>
-      <Footer className="footermobile"/> 
     </>
   )  
 }
