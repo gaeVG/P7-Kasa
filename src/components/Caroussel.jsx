@@ -7,7 +7,8 @@ import {faChevronRight , faChevronLeft} from "@fortawesome/free-solid-svg-icons"
 
 
 const Caroussel = () => {
-    // étape 1 : carouselIndex correspond a l'index du tableau pictures de l'api, de base a 0 
+    // étape 1 : carouselIndex est une valeur de comparaison vis a vis de  l'index du tableau pictures de l'api, de base a 0 
+    //, s'incremente et se decremente a chaque clic sur les chevron
     const [carouselIndex, setCarouselIndex] = useState(0)
 
     let {id} = useParams()
