@@ -10,9 +10,11 @@ const Caroussel = () => {
     // étape 1 : carouselIndex est une valeur de comparaison vis a vis de  l'index du tableau pictures de l'api, de base a 0 
     //, s'incremente et se decremente a chaque clic sur les chevron
     const [carouselIndex, setCarouselIndex] = useState(0)
-
+    
+    // grâce à useParams on récupère l'id dans l'url 
     let {id} = useParams()
-  
+    
+    // je filtre mon api pour récupérer le logement dont l'id correspond a l'id de l'url
     let test = api.filter( logement => logement.id === id )
 
     let logement = test[0]
