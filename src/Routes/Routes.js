@@ -9,14 +9,14 @@ import Error404 from '../Pages/Error404'
 function Path() {
   return (
     <BrowserRouter >
-    <Layout>
-        <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/a-propos" element={<Apropos/>}/>
-            <Route path="/logement/:id" element={<Logement/>}/>
-            <Route path="/*" element={<Error404/>} />
-        </Routes>
-    </Layout>
+      <Layout>
+          <Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/a-propos" element={<Apropos/>}/>
+              <Route path="/logement/:id" element={<Logement/>}/>
+              <Route path="/*" element={<Error404/>} />
+          </Routes>
+      </Layout>
     </BrowserRouter >
   )
 }
