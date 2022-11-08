@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/p7-kasa/static/css/main.a62d0a41.css",
-    "main.js": "/p7-kasa/static/js/main.ad49666d.js",
-    "static/js/787.28cb0dcd.chunk.js": "/p7-kasa/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Bannermontainapropos.png": "/p7-kasa/static/media/Bannermontainapropos.fce6fc3e9ed27433e9b0.png",
-    "static/media/Bannermontain.png": "/p7-kasa/static/media/Bannermontain.efc1935eb81fc5e585f9.png",
-    "index.html": "/p7-kasa/index.html",
-    "main.a62d0a41.css.map": "/p7-kasa/static/css/main.a62d0a41.css.map",
-    "main.ad49666d.js.map": "/p7-kasa/static/js/main.ad49666d.js.map",
-    "787.28cb0dcd.chunk.js.map": "/p7-kasa/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/P7-Kasa/static/css/main.a62d0a41.css",
+    "main.js": "/P7-Kasa/static/js/main.8ec43130.js",
+    "static/js/787.28cb0dcd.chunk.js": "/P7-Kasa/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Bannermontainapropos.png": "/P7-Kasa/static/media/Bannermontainapropos.fce6fc3e9ed27433e9b0.png",
+    "static/media/Bannermontain.png": "/P7-Kasa/static/media/Bannermontain.efc1935eb81fc5e585f9.png",
+    "index.html": "/P7-Kasa/index.html",
+    "main.a62d0a41.css.map": "/P7-Kasa/static/css/main.a62d0a41.css.map",
+    "main.8ec43130.js.map": "/P7-Kasa/static/js/main.8ec43130.js.map",
+    "787.28cb0dcd.chunk.js.map": "/P7-Kasa/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a62d0a41.css",
-    "static/js/main.ad49666d.js"
+    "static/js/main.8ec43130.js"
   ]
 }
